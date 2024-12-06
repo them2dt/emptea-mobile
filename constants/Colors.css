@@ -1,0 +1,17 @@
+/**
+ * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
+ * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
+ */
+  .primary {
+    --color-100: #000000;
+    --color-200: #1A242C;
+    --color-300: #344858;
+    --color-400: #4E6C84;
+    --color-500: #6890B0;
+    --color-600: #82B4DC;
+    --color-700: #9CD8F8;
+    --color-800: #B6FCFF;
+    --color-900: #D0FFFF;
+    --color-1000: #FFFFFF;
+  }
+
