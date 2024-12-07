@@ -22,7 +22,7 @@ const Navigation = ({ currentRoute = "/" }: NavigationProps) => {
         onPress={() => router.replace("/")}
         style={{ 
           fontFamily: "primaryBold",
-          color: currentRoute === "/" ? Colors.primary[600] : Colors.primary[300]
+          color: currentRoute === "/" ? Colors.accent[600] : Colors.primary[600]
         }}
       >
         Home
@@ -36,7 +36,7 @@ const Navigation = ({ currentRoute = "/" }: NavigationProps) => {
           top: -25,
           width: 50,
           height: 50,
-          backgroundColor: Colors.primary[600],
+          backgroundColor: Colors.accent[600],
           borderRadius: 25,
           justifyContent: 'center',
           alignItems: 'center',
@@ -58,7 +58,7 @@ const Navigation = ({ currentRoute = "/" }: NavigationProps) => {
         onPress={() => router.replace("/profile")} 
         style={{
           fontFamily: "primaryBold",
-          color: currentRoute === "/profile" ? Colors.primary[600] : Colors.primary[300]
+          color: currentRoute === "/profile" ? Colors.accent[600] : Colors.primary[600]
         }}
       >
         Profile

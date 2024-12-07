@@ -4,14 +4,26 @@
  */
   .primary {
     --color-100: #000000;
-    --color-200: #1A242C;
-    --color-300: #344858;
-    --color-400: #4E6C84;
-    --color-500: #6890B0;
-    --color-600: #82B4DC;
-    --color-700: #9CD8F8;
-    --color-800: #B6FCFF;
-    --color-900: #D0FFFF;
+    --color-200: #1A1A1A;
+    --color-300: #333333;
+    --color-400: #4D4D4D;
+    --color-500: #666666;
+    --color-600: #808080;
+    --color-700: #999999;
+    --color-800: #B3B3B3;
+    --color-900: #CCCCCC;
     --color-1000: #FFFFFF;
   }
 
+  .accent {
+    --color-1000: #230000;
+    --color-900: #2A0505;
+    --color-800: #4A0A0A;
+    --color-700: #6A0F0F;
+    --color-600: #8A1414;
+    --color-500: #AA1919;
+    --color-400: #CA1E1E;
+    --color-300: #EA2323;
+    --color-200: #FA3838;
+    --color-100: #FF4D4D;
+  }

@@ -50,8 +50,8 @@ const Post = ({ title, content }: PostProps) => {
           overflow: "hidden",
         }}
       >
-        <View style={{ flex: 1, backgroundColor: Colors.primary[500] }} />
-        <View style={{ flex: 1, backgroundColor: Colors.primary[300] }} />
+        <View style={{ flex: 1, backgroundColor: Colors.accent[400] }} />
+        <View style={{ flex: 1, backgroundColor: Colors.accent[100] }} />
       </View>
 
       {/* Buttons */}
@@ -59,7 +59,7 @@ const Post = ({ title, content }: PostProps) => {
         <TouchableOpacity
           style={{
             flex: 1,
-            backgroundColor: Colors.primary[600],
+            backgroundColor: Colors.accent[400],
             padding: 12,
             borderRadius: 8,
             alignItems: "center",
@@ -70,7 +70,7 @@ const Post = ({ title, content }: PostProps) => {
         <TouchableOpacity
           style={{
             flex: 1,
-            backgroundColor: Colors.primary[300],
+            backgroundColor: Colors.accent[100],
             padding: 12,
             borderRadius: 8,
             alignItems: "center",

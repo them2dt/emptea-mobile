@@ -43,7 +43,7 @@ const Home = () => {
           <TouchableOpacity>
             <Text style={{
               marginLeft: 8,
-              color: Colors.primary[600],
+              color: Colors.accent[600],
               fontFamily: "primaryBold"
             }}>
               Search
@@ -52,8 +52,8 @@ const Home = () => {
         </View>
 
         {/* Filter Button */}
-        <View style={{
-          backgroundColor: Colors.primary[600],
+        <TouchableOpacity style={{
+          backgroundColor: Colors.accent[600],
           padding: 12,
           borderRadius: 8,
           alignItems: "center"
@@ -64,7 +64,7 @@ const Home = () => {
           }}>
             Filter Posts
           </Text>
-        </View>
+        </TouchableOpacity>
       </View>
 
       <ScrollView style={{ flex: 1 }}>

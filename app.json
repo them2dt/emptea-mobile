@@ -9,9 +9,6 @@
     ],
     "name": "submerge-app",
     "slug": "submerge-app",
-    "newArchEnabled": true,
-    "androidStatusBar": {
-      "hidden": true
-    }
+    "newArchEnabled": true
   }
 }
